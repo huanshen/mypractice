@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #0A4E20;
+	color: #dd2; 
+}
+section{
+	display: block;
+}
+#left{
+	position:absolute;
+	top:50px;
+	left: 50px;
+	width: calc(50% - 100px);
+	width:-moz-calc(50% - 100px);
+	width:-webkit-calc(50% - 100px);
+	height: 280px;
+	border: 2px solid #ccc;
+} 
+#right{
+	position: absolute;
+	top:50px;
+	right: 50px;
+	width: calc(50% - 100px);
+	width:-moz-calc(50% - 100px);
+	width:-webkit-calc(50% - 100px);
+	height: 280px;
+	border: 2px solid #ccc;
+}
+h1{text-align: center;margin: 10px;}
+.H-center{
+	position: absolute;	
+	width: calc(100% - 40px);
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -0);
+	line-height: 30px;
+}
+.operation{top:50px;}
+#center{
+	position: relative;
+	top:500px;
+}
+#center-1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: calc(100% - 100px);
+	height: 200px;
+}
+#place-card-l,#place-card-r{
+	position: absolute;
+	height: 100px;
+	box-sizing:border-box;
+	top: 125px;
+	width: 180px; 
+
+}
+#place-card-r img,#place-card-l img{
+	position: absolute;
+
+}
+input[type=text]{
+	width: 40px;
+}
+.operation-2{top:245px;}
+#card-bg-img{
+	position: absolute;
+	left: 50%;
+	width: 380px;
+	margin-left: -190px;
+	top:20px;
+}
+.operation-3{top:130px;}
+button{
+	padding: 3px;
+
+}
+#card-bg-img img{
+	position: absolute;
+}
+.hidden{
+	display: none;
+}

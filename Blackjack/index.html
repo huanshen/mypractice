@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>21点纸牌</title>
+	<link rel="stylesheet" href="test.css">
+</head>
+<body>
+	<section id="left">
+		<h1 id="play1">玩家1 </h1>
+		<div class="operation H-center">
+				<label>积分<input type="text" value="1000" id="player1-win" disabled></label>
+				<label>下注<input type="text" value="10" id="player1-bet">分</label>
+				<button id="player1-submit">确定</button>
+		</div>
+		<div id="place-card-l" class="H-center">
+			<img><img><img><img><img><img><img><img><img><img>
+		</div>
+		<div class="operation-2 H-center">
+			<button id="player1-enough">停牌</button>
+			<button id="player1-yao">拿牌</button>
+		</div>
+	</section>
+	<section id="right">
+		<h1 id="play2">玩家2</h1>
+		<div class="operation H-center">
+			<label>积分<input type="text" value="1000" id="player2-win" disabled></label>
+			<label>下注<input type="text" value="10" id="player2-bet">分</label>
+			<button id="player2-submit">确定</button>
+		</div>
+		<div id="place-card-r" class="H-center">
+			<img><img><img><img><img><img><img><img><img><img>
+		</div>
+		<div class="operation-2 H-center">
+			<button id="player2-enough">停牌</button>
+			<button id="player2-yao">拿牌</button>
+		</div>
+	</section>
+	<section id="center">
+
+		<div id="center-1">
+			<div  id= "card-bg-img">
+				
+			</div>
+			<div class="operation-3 H-center">
+				<button id="deal">发牌</button>
+				<button id="pause">开始/下一局</button>
+				<button id="restart">重玩</button>
+			</div>
+		</div>
+	</section>
+</body>
+<script src="card.js"></script>
+<script src="control.js"></script>
+<script src="main.js"></script>
+</html>
